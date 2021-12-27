@@ -1,7 +1,7 @@
 import { GameObject } from "./GameObject.js";
-import { MapTile } from "./MapTile.js";
+import { MapTile, MapTileTypes } from "./MapTile.js";
 import { TileSelection } from "./TileSelection.js";
-import { Vector2 } from "./Transform.js";
+import { Waypoint } from "./Waypoint.js";
 
 export class Map extends GameObject {
     constructor() {
@@ -38,7 +38,7 @@ export class Map extends GameObject {
             let column = Math.floor(x / this._tileSize);
             let row = Math.floor(y / this._tileSize);
             this._selectedTileIndex = row * this._columns + column;
-            this._selectedTileObject.Position = new Vector2(column * this._tileSize, row * this._tileSize);
+            this._selectedTileObject.Position = createVector(column * this._tileSize, row * this._tileSize);
 
             if (this._onSelectedTileChanged != null) {
                 this._onSelectedTileChanged(this.SelectedTile);
@@ -50,27 +50,66 @@ export class Map extends GameObject {
 
     }
 
+    GetTileIndex(x, y) {
+        return y * this._columns + x;
+    }
+
     LoadTestMap() {
         
         let greenColor = color(80, 255, 80);
         let brownColor = color(255, 255, 128);
         let greyColor = color(128);
         this._tiles = [
-            new MapTile(true, greenColor, this._tileSize), new MapTile(false, brownColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize),
-            new MapTile(true, greenColor, this._tileSize), new MapTile(false, brownColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize),
-            new MapTile(true, greenColor, this._tileSize), new MapTile(false, brownColor, this._tileSize), new MapTile(false, brownColor, this._tileSize), new MapTile(false, brownColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize),
-            new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(false, brownColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize),
-            new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(false, brownColor, this._tileSize), new MapTile(false, brownColor, this._tileSize), new MapTile(true, greenColor, this._tileSize),
-            new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(true, greenColor, this._tileSize), new MapTile(false, greyColor, this._tileSize), new MapTile(true, greenColor, this._tileSize)
+            new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Path, brownColor, this._tileSize),      new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize),
+            new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Path, brownColor, this._tileSize),      new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize),
+            new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Path, brownColor, this._tileSize),      new MapTile(MapTileTypes.Path, brownColor, this._tileSize),      new MapTile(MapTileTypes.Path, brownColor, this._tileSize),      new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize),
+            new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Path, brownColor, this._tileSize),      new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize),
+            new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Path, brownColor, this._tileSize),      new MapTile(MapTileTypes.Path, brownColor, this._tileSize),      new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize),
+            new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize), new MapTile(MapTileTypes.Target, greyColor, this._tileSize),     new MapTile(MapTileTypes.Buildable, greenColor, this._tileSize)
         ];
 
         for(var r = 0; r < this._rows; r++) {
             for(var c = 0; c < this._columns; c++) {
-                let index = r * 6 + c;
+                let index = this.GetTileIndex(c, r);
                 let tile = this._tiles[index];
-                tile.Position = new Vector2(c * this._tileSize, r * this._tileSize);
+                tile.Position = new createVector(c * this._tileSize, r * this._tileSize);
                 this._tileGameObject.addChild(tile);
             }
         }
+    }
+
+    // this will generate the way points based on the tile layout
+    GenerateWaypoints() {
+        let waypoints = [];
+
+        // create a fake tile to use that is off of the map, this will be the "spawn point" of the enemy
+        // because we are not adding this map tile as a child, it will not draw.
+        let startTile = new MapTile(MapTileTypes.Path, color(0), this._tileSize);
+        startTile.Position = createVector(this._tileSize, -this._tileSize);
+        waypoints.push(new Waypoint(startTile));
+
+        let currentX = 1; // start x, y of the first path tile in the map
+        let currentY = 0;
+        let currentTile = this._tiles[this.GetTileIndex(currentX, currentY)];
+        while (currentTile != null) {
+            // add the current tile to the 
+            waypoints.push(new Waypoint(currentTile));
+            if (!currentTile.IsTarget) {
+                currentTile = null;
+                let checkTileRight = this._tiles[this.GetTileIndex(currentX + 1, currentY)];
+                let checkTileDown = this._tiles[this.GetTileIndex(currentX, currentY + 1)];
+                if (checkTileRight.IsPath || checkTileRight.IsTarget) {
+                    currentTile = checkTileRight;
+                    currentX++;
+                } else if (checkTileDown.IsPath || checkTileDown.IsTarget) {
+                    currentTile = checkTileDown;
+                    currentY++;
+                }
+            } else {
+                currentTile = null;
+            }
+        }
+
+        return waypoints;
     }
 }

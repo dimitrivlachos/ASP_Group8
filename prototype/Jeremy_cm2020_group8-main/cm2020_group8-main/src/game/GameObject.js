@@ -39,14 +39,14 @@ export class GameObject {
     update(deltaTime) {
         if (this._enabled)
         {
-            this.updateImp();
+            this.updateImp(deltaTime);
             for (let i = 0; i < this._children.length; i++) {
                 this._children[i].update(deltaTime);
             }
         }
     }
 
-    updateImp() {
+    updateImp(deltaTime) {
     }
 
     draw() {
