@@ -1,22 +1,27 @@
-export class Vector2 {
-    constructor(x, y) {
-        if (x == null)
-            this.x = 0;
-        else
-            this.x = x;
-        
-        if (y == null)
-            this.y = 0;
-        else 
-            this.y = y;
-    }
-}
-
 export class Transform {
+    #_position;
+    #_scale;
+
     constructor() {
-        this.position = new Vector2(0, 0);
+        this.#_position = createVector(0, 0);
         this.rotation = 0;
-        this.scale = new Vector2(1, 1);
+        this.#_scale = createVector(1, 1);
+    }
+
+    get position() {
+        return createVector(this.#_position.x, this.#_position.y);
+    }
+
+    set position(value) {
+        this.#_position = value;
+    }
+
+    get scale() {
+        return createVector(this.#_scale.x, this.#_scale.y);
+    }
+
+    set scale(value) {
+        this.#_scale = value;
     }
 
     push() {
