@@ -15,3 +15,13 @@ Jeremy Matthews
 Sharif Khan
 
 Freda Xiaoyun Yu
+
+------------------------------------------
+
+Midterm rubric: 
+https://www.coursera.org/learn/uol-cm2020-agile-software-projects/supplement/Zhc66/assignment-brief 
+
+Midterm submission page: 
+https://www.coursera.org/learn/uol-cm2020-agile-software-projects/irt/18cSX/5-204-individual-submission-of-a-group-project-proposal-001 
+
+
