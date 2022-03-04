@@ -1,19 +1,6 @@
 
 
-enemy1: saw
-enemy2: gun
-
-
-tower1: poison frog
-tower2: tiger
-tower3: piranha
-tower4: king cobra
-
-
-
----------------------------------
-
-poison frogs: 
+poisnous frogs: 
 https://static.vecteezy.com/system/resources/previews/000/090/393/original/poison-frog-vectors.jpg
 
 
@@ -34,6 +21,8 @@ https://freesvg.org/img/motosega.png
 
 gun: 
 https://www.goodfreephotos.com/albums/vector-images/rifle-cartoon-vector-file.png
+https://cdn5.vectorstock.com/i/1000x1000/12/94/comic-cartoon-firing-gun-vector-6981294.jpg
+http://pluspng.com/img-png/cartoon-gun-png-this-free-icons-png-design-of-gun-11-2400.png
 
 
 piranha: 
@@ -48,18 +37,4 @@ https://image.freepik.com/free-vector/background-with-advocacy-elements_23-21478
 https://cdn2.vectorstock.com/i/1000x1000/81/71/judge-gavel-and-law-books-vector-328171.jpg 
 
 
-jaguar: 
-https://media.istockphoto.com/vectors/leaping-jaguar-vector-id973770780?k=6&m=973770780&s=170667a&w=0&h=nfZYDy5RQZE6WssLD1y-52CkEYPHDhVV4ECM42rYRFo=
-https://media.istockphoto.com/vectors/cartoon-animals-for-kids-little-baby-jaguar-smiles-vector-id547246060
 
-king cobra: 
-https://media.istockphoto.com/vectors/cobra-snake-mascot-vector-id630008850?k=6&m=630008850&s=612x612&w=0&h=wtfHSvTDnSTJG9vb-Taq2-g1H2P8a4IGab1S8PBNzB8=
-https://images.all-free-download.com/images/graphiclarge/elements_of_funny_cartoon_cobra_vector_520924.jpg
-
-
-main picture animals and human together: 
-https://cdn3.vectorstock.com/i/1000x1000/94/22/wild-animals-together-in-the-field-vector-11159422.jpg
-http://www.bizhizu.com/download/7859-0-0x0.html
-
-jungle: 
-http://www.bizhizu.com/download/7859-0-0x0.html 
