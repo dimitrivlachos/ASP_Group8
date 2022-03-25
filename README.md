@@ -1,10 +1,10 @@
 # ASP_Group8
 ## Resources and files route for Agile Software Projects Group 8 project
 
-Game link: https://aspgrp8.z1.web.core.windows.net/
+<b>Game link: https://aspgrp8.z1.web.core.windows.net/</b>
 
-The main codes for our TD game are in Jeremy's Github page here: 
-https://github.com/matthewsja/asp8_TowerDefense
+<b>The main codes for our TD game are in Jeremy's Github page here: 
+    https://github.com/matthewsja/asp8_TowerDefense</b>
 
 ------------------------------------------
 
@@ -21,9 +21,13 @@ Freda Xiaoyun Yu
 (Absent: Sharif Khan)
 
 ------------------------------------------
-Our Miro workshop page: https://miro.com/welcome/ME4xYWV4RjUyb1I3azFxYTAwM0RXZVBvNGEyY3hFVG11cFBmNXdiRnl1[…]aHoxR3A1bHwzMDc0NDU3MzY4MDA4NzE1NzQ5?invite_link_id=560113239963
 ------------------------------------------
-## Links for our questionnaires spread: 
+------------------------------------------
+### Our Miro workshop page: 
+
+https://miro.com/welcome/ME4xYWV4RjUyb1I3azFxYTAwM0RXZVBvNGEyY3hFVG11cFBmNXdiRnl1[…]aHoxR3A1bHwzMDc0NDU3MzY4MDA4NzE1NzQ5?invite_link_id=560113239963
+------------------------------------------
+### Links for our questionnaires spread: 
 Mar 2022 
 
 Google form: 
@@ -42,7 +46,7 @@ Slack simple vote:
 
 ------------------------------------------
 
-## Coursera final term submission page: 
+### Coursera final term submission page: 
 https://www.coursera.org/learn/uol-cm2020-agile-software-projects/irt/YfmfR/individual-submission-of-the-project-documentation-002
 
 
