@@ -1,10 +1,10 @@
 # ASP_Group8
 ## Resources and files route for Agile Software Projects Group 8 project
 
-The main codes for our TD game is in Jeremy's Github page here: 
-https://github.com/matthewsja/asp8_TowerDefense
+Game link: https://aspgrp8.z1.web.core.windows.net/
 
-Our Miro workshop page: https://miro.com/welcome/ME4xYWV4RjUyb1I3azFxYTAwM0RXZVBvNGEyY3hFVG11cFBmNXdiRnl1[…]aHoxR3A1bHwzMDc0NDU3MzY4MDA4NzE1NzQ5?invite_link_id=560113239963
+The main codes for our TD game are in Jeremy's Github page here: 
+https://github.com/matthewsja/asp8_TowerDefense
 
 ------------------------------------------
 
@@ -20,6 +20,8 @@ Freda Xiaoyun Yu
 
 (Absent: Sharif Khan)
 
+------------------------------------------
+Our Miro workshop page: https://miro.com/welcome/ME4xYWV4RjUyb1I3azFxYTAwM0RXZVBvNGEyY3hFVG11cFBmNXdiRnl1[…]aHoxR3A1bHwzMDc0NDU3MzY4MDA4NzE1NzQ5?invite_link_id=560113239963
 ------------------------------------------
 ## Links for our questionnaires spread: 
 Mar 2022 
