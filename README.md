@@ -24,8 +24,12 @@ Freda Xiaoyun Yu
 ------------------------------------------
 ------------------------------------------
 ### Our Miro workshop page: 
-
 https://miro.com/welcome/ME4xYWV4RjUyb1I3azFxYTAwM0RXZVBvNGEyY3hFVG11cFBmNXdiRnl1[…]aHoxR3A1bHwzMDc0NDU3MzY4MDA4NzE1NzQ5?invite_link_id=560113239963
+
+------------------------------------------
+### <b>You can use this User Feedback Form to collect user opinions continuously: 
+    https://github.com/FredaXYu/ASP_Group8/blob/main/after_midterm/user_tests/User_Experience_Form_Template_Mar8.doc </b>
+
 ------------------------------------------
 ### Links for our questionnaires spread: 
 Mar 2022 
