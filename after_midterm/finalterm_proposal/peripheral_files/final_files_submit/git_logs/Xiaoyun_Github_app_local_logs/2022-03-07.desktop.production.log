@@ -1,0 +1,42 @@
+2022-03-07T02:55:47.653Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-03-07T02:55:47.653Z - info: [ui] [AppStore] found account: FredaXYu (Freda Xiaoyun Yu)
+2022-03-07T02:55:48.530Z - info: [ui] launching: 2.9.11 (Windows 10.0.19042)
+2022-03-07T02:55:48.531Z - info: [ui] execPath: 'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.11\GitHubDesktop.exe'
+2022-03-07T02:55:49.665Z - info: [ui] Subscribed 'FredaXYu' to Alive channel
+2022-03-07T02:55:49.993Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.541s)
+2022-03-07T02:55:50.609Z - info: [ui] Stats reported.
+2022-03-07T02:55:50.754Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: asp8_TowerDefense - FredaXYu (has token)
+2022-03-07T02:55:53.444Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.600s)
+2022-03-07T02:55:57.073Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune upstream (took 3.555s)
+2022-03-07T02:56:00.604Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2022-03-07T03:11:31.638Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 4.1s of which 917.3s paused, total 921.4s
+2022-03-07T03:12:46.475Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 2.4s of which 0.0s paused, total 2.4s
+2022-03-07T03:12:47.106Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: asp8_TowerDefense - FredaXYu (has token)
+2022-03-07T03:12:50.041Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.849s)
+2022-03-07T03:12:53.225Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune upstream (took 3.102s)
+2022-03-07T03:26:23.133Z - info: [ui] [Timing] Action 'create commit' for 'fredaxyu/asp8_TowerDefense' took 1.728s
+2022-03-07T03:26:24.437Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: asp8_TowerDefense - FredaXYu (has token)
+2022-03-07T03:26:30.003Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 5.412s)
+2022-03-07T03:26:33.785Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.567s)
+2022-03-07T12:38:51.527Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-03-07T12:38:51.528Z - info: [ui] [AppStore] found account: FredaXYu (Freda Xiaoyun Yu)
+2022-03-07T12:38:51.530Z - info: [ui] [BranchPruner] Last prune took place in 14 hours - skipping
+2022-03-07T12:38:52.312Z - info: [ui] launching: 2.9.11 (Windows 10.0.19042)
+2022-03-07T12:38:52.313Z - info: [ui] execPath: 'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.11\GitHubDesktop.exe'
+2022-03-07T12:38:53.287Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.087s)
+2022-03-07T12:38:54.050Z - info: [ui] Subscribed 'FredaXYu' to Alive channel
+2022-03-07T12:39:10.052Z - info: [ui] [Timing] Action 'create commit' for 'fredaxyu/ASP_Group8' took 1.513s
+2022-03-07T12:39:10.722Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-07T12:39:17.667Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 6.828s)
+2022-03-07T12:39:20.795Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.871s)
+2022-03-07T13:21:06.547Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-03-07T13:21:06.548Z - info: [ui] [AppStore] found account: FredaXYu (Freda Xiaoyun Yu)
+2022-03-07T13:21:06.550Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2022-03-07T13:21:07.033Z - info: [ui] launching: 2.9.11 (Windows 10.0.19042)
+2022-03-07T13:21:07.036Z - info: [ui] execPath: 'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.11\GitHubDesktop.exe'
+2022-03-07T13:21:07.904Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.008s)
+2022-03-07T13:21:09.125Z - info: [ui] Subscribed 'FredaXYu' to Alive channel
+2022-03-07T13:21:13.757Z - info: [ui] [Timing] Action 'create commit' for 'fredaxyu/ASP_Group8' took 1.254s
+2022-03-07T13:21:14.789Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-07T13:21:23.836Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 8.915s)
+2022-03-07T13:21:27.035Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.896s)

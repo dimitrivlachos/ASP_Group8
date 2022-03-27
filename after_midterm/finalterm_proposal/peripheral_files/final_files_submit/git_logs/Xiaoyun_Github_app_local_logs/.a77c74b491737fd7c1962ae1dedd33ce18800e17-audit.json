@@ -1,0 +1,60 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\Administrator\\AppData\\Roaming\\GitHub Desktop\\logs\\.a77c74b491737fd7c1962ae1dedd33ce18800e17-audit.json",
+    "files": [
+        {
+            "date": 1646210384550,
+            "name": "C:\\Users\\Administrator\\AppData\\Roaming\\GitHub Desktop\\logs\\2022-03-02.desktop.production.log",
+            "hash": "99c279b8c0f497a08cf794d6b9982741"
+        },
+        {
+            "date": 1646293965081,
+            "name": "C:\\Users\\Administrator\\AppData\\Roaming\\GitHub Desktop\\logs\\2022-03-03.desktop.production.log",
+            "hash": "e9d3f11b394c5c60703a43e946dcfc6e"
+        },
+        {
+            "date": 1646359958366,
+            "name": "C:\\Users\\Administrator\\AppData\\Roaming\\GitHub Desktop\\logs\\2022-03-04.desktop.production.log",
+            "hash": "fac3665e0e8296c8c12641ed6c5b52ea"
+        },
+        {
+            "date": 1646447971714,
+            "name": "C:\\Users\\Administrator\\AppData\\Roaming\\GitHub Desktop\\logs\\2022-03-05.desktop.production.log",
+            "hash": "bdddb9664aa9fd25dd60051591f0bfa0"
+        },
+        {
+            "date": 1646621747647,
+            "name": "C:\\Users\\Administrator\\AppData\\Roaming\\GitHub Desktop\\logs\\2022-03-07.desktop.production.log",
+            "hash": "1a7d3c8062c8182e1714c91a92fc5b4b"
+        },
+        {
+            "date": 1646704803067,
+            "name": "C:\\Users\\Administrator\\AppData\\Roaming\\GitHub Desktop\\logs\\2022-03-08.desktop.production.log",
+            "hash": "cd5db76e1bf7f45c749cd96ad77ade82"
+        },
+        {
+            "date": 1646795421392,
+            "name": "C:\\Users\\Administrator\\AppData\\Roaming\\GitHub Desktop\\logs\\2022-03-09.desktop.production.log",
+            "hash": "019a011a92d22f364868077a48751a22"
+        },
+        {
+            "date": 1646877572144,
+            "name": "C:\\Users\\Administrator\\AppData\\Roaming\\GitHub Desktop\\logs\\2022-03-10.desktop.production.log",
+            "hash": "e2657546497e7f87ddb08f1a5176c719"
+        },
+        {
+            "date": 1647007325414,
+            "name": "C:\\Users\\Administrator\\AppData\\Roaming\\GitHub Desktop\\logs\\2022-03-11.desktop.production.log",
+            "hash": "df056d7e99e4975406bf7a5e4070f3ac"
+        },
+        {
+            "date": 1648187750244,
+            "name": "C:\\Users\\Administrator\\AppData\\Roaming\\GitHub Desktop\\logs\\2022-03-25.desktop.production.log",
+            "hash": "799c912fbc4ae6dcbdfbb7b3f1747b97"
+        }
+    ],
+    "hashType": "md5"
+}

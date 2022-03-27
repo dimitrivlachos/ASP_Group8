@@ -1,0 +1,48 @@
+2022-03-05T02:39:31.719Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-03-05T02:39:31.720Z - info: [ui] [AppStore] found account: FredaXYu (Freda Xiaoyun Yu)
+2022-03-05T02:39:32.085Z - info: [ui] [BranchPruner] Last prune took place in 3 hours - skipping
+2022-03-05T02:39:32.539Z - info: [ui] launching: 2.9.11 (Windows 10.0.19042)
+2022-03-05T02:39:32.540Z - info: [ui] execPath: 'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.11\GitHubDesktop.exe'
+2022-03-05T02:39:33.504Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.020s)
+2022-03-05T02:39:33.947Z - info: [ui] Subscribed 'FredaXYu' to Alive channel
+2022-03-05T02:39:47.591Z - info: [ui] [Timing] Action 'create commit' for 'fredaxyu/ASP_Group8' took 1.029s
+2022-03-05T02:39:51.380Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.221s)
+2022-03-05T02:39:52.889Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-05T02:39:58.816Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 5.838s)
+2022-03-05T02:40:02.616Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.628s)
+2022-03-05T03:11:48.108Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.780s)
+2022-03-05T03:43:44.781Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.543s)
+2022-03-05T04:15:38.963Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.825s)
+2022-03-05T04:19:27.206Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 5.8s of which 230.8s paused, total 236.6s
+2022-03-05T04:19:30.957Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.380s)
+2022-03-05T04:19:34.586Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune upstream (took 3.520s)
+2022-03-05T04:20:38.177Z - info: [ui] [Timing] Action 'create commit' for 'fredaxyu/asp8_TowerDefense' took 1.228s
+2022-03-05T04:20:40.988Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: asp8_TowerDefense - FredaXYu (has token)
+2022-03-05T04:20:48.244Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 7.162s)
+2022-03-05T04:20:51.052Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.645s)
+2022-03-05T14:09:50.339Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-03-05T14:09:50.341Z - info: [ui] [AppStore] found account: FredaXYu (Freda Xiaoyun Yu)
+2022-03-05T14:09:50.500Z - info: [ui] [BranchPruner] Last prune took place in 14 hours - skipping
+2022-03-05T14:09:50.859Z - info: [ui] launching: 2.9.11 (Windows 10.0.19042)
+2022-03-05T14:09:50.862Z - info: [ui] execPath: 'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.11\GitHubDesktop.exe'
+2022-03-05T14:09:51.987Z - info: [ui] Subscribed 'FredaXYu' to Alive channel
+2022-03-05T14:09:52.809Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 2.033s)
+2022-03-05T14:09:53.308Z - info: [ui] Stats reported.
+2022-03-05T14:10:10.261Z - info: [ui] calling captureCommandOutput(where git)
+2022-03-05T14:10:29.309Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 22.746s)
+2022-03-05T14:10:29.322Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/FredaXYu/asp8_TowerDefense.git/': schannel: failed to receive handshake, SSL/TLS connection failed
+
+2022-03-05T14:10:47.606Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune upstream (took 17.936s)
+2022-03-05T14:12:52.526Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 4.1s of which 0.0s paused, total 4.1s
+2022-03-05T14:13:21.529Z - info: [ui] [Timing] Action 'create commit' for 'fredaxyu/asp8_TowerDefense' took 1.109s
+2022-03-05T14:13:22.995Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: asp8_TowerDefense - FredaXYu (has token)
+2022-03-05T14:13:43.217Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 20.134s)
+2022-03-05T14:13:43.225Z - error: [ui] `git -c credential.helper= -c protocol.version=2 push origin main:main --progress` exited with an unexpected code: 128.
+stderr:
+fatal: unable to access 'https://github.com/FredaXYu/asp8_TowerDefense.git/': schannel: failed to receive handshake, SSL/TLS connection failed
+
+2022-03-05T14:13:54.771Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: asp8_TowerDefense - FredaXYu (has token)
+2022-03-05T14:14:00.943Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 6.044s)
+2022-03-05T14:14:03.914Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.790s)
