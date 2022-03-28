@@ -1,0 +1,38 @@
+2022-03-26T03:17:33.518Z - info: [ui] [BranchPruner] Last prune took place in 21 hours - skipping
+2022-03-26T03:17:37.974Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.603s)
+2022-03-26T05:36:02.607Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-03-26T05:36:02.611Z - info: [ui] [AppStore] found account: FredaXYu (Freda Xiaoyun Yu)
+2022-03-26T05:36:02.787Z - info: [ui] [BranchPruner] Last prune took place tomorrow - skipping
+2022-03-26T05:36:03.509Z - info: [ui] launching: 2.9.12 (Windows 10.0.19042)
+2022-03-26T05:36:03.510Z - info: [ui] execPath: 'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.12\GitHubDesktop.exe'
+2022-03-26T05:36:05.081Z - info: [ui] Subscribed 'FredaXYu' to Alive channel
+2022-03-26T05:36:05.774Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 2.414s)
+2022-03-26T05:36:19.288Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.481s)
+2022-03-26T05:37:21.176Z - info: [ui] [BranchPruner] Last prune took place tomorrow - skipping
+2022-03-26T05:37:25.812Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-26T05:37:26.140Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-26T05:37:26.142Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8_Gantt_Chart - FredaXYu (has token)
+2022-03-26T05:37:30.582Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 1.003s)
+2022-03-26T05:37:31.722Z - info: [ui] [Timing] Action 'create commit' for 'FredaXYu/ASP_Group8' took 2.249s
+2022-03-26T05:37:33.089Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-26T05:37:34.472Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 8.210s)
+2022-03-26T05:37:34.476Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/FredaXYu/ASP_Group8_Gantt_Chart.git/' not found
+
+(The error was parsed as 8: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2022-03-26T05:37:36.143Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 11.7s of which 0.0s paused, total 11.7s
+2022-03-26T05:37:40.982Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 7.801s)
+2022-03-26T05:37:44.027Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.866s)
+2022-03-26T15:01:15.505Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-03-26T15:01:15.510Z - info: [ui] [AppStore] found account: FredaXYu (Freda Xiaoyun Yu)
+2022-03-26T15:01:16.340Z - info: [ui] launching: 2.9.12 (Windows 10.0.19042)
+2022-03-26T15:01:16.341Z - info: [ui] execPath: 'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.12\GitHubDesktop.exe'
+2022-03-26T15:01:17.371Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.088s)
+2022-03-26T15:01:18.015Z - info: [ui] Stats reported.
+2022-03-26T15:01:18.438Z - info: [ui] Subscribed 'FredaXYu' to Alive channel
+2022-03-26T15:01:20.841Z - info: [ui] [Timing] Action 'create commit' for 'FredaXYu/ASP_Group8' took 1.937s
+2022-03-26T15:01:26.439Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-26T15:01:33.575Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 7.032s)
+2022-03-26T15:01:36.836Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.084s)

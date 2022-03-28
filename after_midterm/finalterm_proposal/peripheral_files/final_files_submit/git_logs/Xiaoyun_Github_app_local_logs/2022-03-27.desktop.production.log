@@ -1,0 +1,139 @@
+2022-03-27T02:08:33.030Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-03-27T02:08:33.038Z - info: [ui] [AppStore] found account: FredaXYu (Freda Xiaoyun Yu)
+2022-03-27T02:08:33.442Z - info: [ui] [BranchPruner] Last prune took place in 11 hours - skipping
+2022-03-27T02:08:33.873Z - info: [ui] launching: 2.9.12 (Windows 10.0.19042)
+2022-03-27T02:08:33.874Z - info: [ui] execPath: 'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.12\GitHubDesktop.exe'
+2022-03-27T02:08:35.104Z - info: [ui] Subscribed 'FredaXYu' to Alive channel
+2022-03-27T02:08:35.447Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.633s)
+2022-03-27T02:08:37.569Z - info: [ui] [Timing] Action 'create commit' for 'FredaXYu/ASP_Group8' took 0.812s
+2022-03-27T02:08:38.436Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-27T02:08:44.332Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 5.806s)
+2022-03-27T02:08:47.758Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.199s)
+2022-03-27T03:04:53.525Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-03-27T03:04:53.531Z - info: [ui] [AppStore] found account: FredaXYu (Freda Xiaoyun Yu)
+2022-03-27T03:04:53.546Z - info: [ui] [BranchPruner] Last prune took place in 12 hours - skipping
+2022-03-27T03:04:54.368Z - info: [ui] launching: 2.9.12 (Windows 10.0.19042)
+2022-03-27T03:04:54.369Z - info: [ui] execPath: 'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.12\GitHubDesktop.exe'
+2022-03-27T03:04:55.702Z - info: [ui] Subscribed 'FredaXYu' to Alive channel
+2022-03-27T03:04:59.035Z - info: [ui] [BranchPruner] Last prune took place in 12 hours - skipping
+2022-03-27T03:05:04.136Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 4.949s)
+2022-03-27T03:05:31.380Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-27T03:05:31.778Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-27T03:05:31.787Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8_Gantt_Chart - FredaXYu (has token)
+2022-03-27T03:05:35.289Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.368s)
+2022-03-27T03:05:35.296Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/FredaXYu/ASP_Group8_Gantt_Chart.git/' not found
+
+(The error was parsed as 8: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2022-03-27T03:05:36.964Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 7.6s of which 0.0s paused, total 7.6s
+2022-03-27T03:06:48.631Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 1.002s)
+2022-03-27T03:06:49.691Z - info: [ui] [Timing] Action 'create commit' for 'FredaXYu/ASP_Group8' took 2.255s
+2022-03-27T03:06:49.988Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-27T03:07:00.803Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 10.586s)
+2022-03-27T03:07:04.364Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.353s)
+2022-03-27T03:30:31.332Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-27T03:30:31.701Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-27T03:30:31.702Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8_Gantt_Chart - FredaXYu (has token)
+2022-03-27T03:30:35.612Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.745s)
+2022-03-27T03:30:35.638Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/FredaXYu/ASP_Group8_Gantt_Chart.git/' not found
+
+(The error was parsed as 8: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2022-03-27T03:30:36.944Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 8.3s of which 0.0s paused, total 8.3s
+2022-03-27T03:31:00.287Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 1.863s)
+2022-03-27T03:31:01.425Z - info: [ui] [Timing] Action 'create commit' for 'FredaXYu/ASP_Group8' took 3.199s
+2022-03-27T03:31:02.154Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-27T03:31:12.319Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 10.081s)
+2022-03-27T03:31:15.394Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.842s)
+2022-03-27T03:37:49.198Z - info: [ui] [Timing] Action 'create commit' for 'FredaXYu/ASP_Group8' took 2.476s
+2022-03-27T03:37:49.850Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-27T03:37:55.636Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 5.689s)
+2022-03-27T03:38:00.584Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 4.769s)
+2022-03-27T07:46:31.767Z - info: [ui] [BranchPruner] Last prune took place in 17 hours - skipping
+2022-03-27T07:46:35.801Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-27T07:46:36.129Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-27T07:46:36.130Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8_Gantt_Chart - FredaXYu (has token)
+2022-03-27T07:46:36.653Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.950s)
+2022-03-27T07:46:41.264Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 5.048s)
+2022-03-27T07:46:41.274Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/FredaXYu/ASP_Group8_Gantt_Chart.git/' not found
+
+(The error was parsed as 8: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2022-03-27T07:57:52.503Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 12.3s of which 668.4s paused, total 680.7s
+2022-03-27T07:57:54.144Z - info: [ui] [Timing] Action 'create commit' for 'FredaXYu/ASP_Group8' took 0.757s
+2022-03-27T07:57:54.787Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-27T07:57:59.382Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 4.506s)
+2022-03-27T07:58:02.054Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.533s)
+2022-03-27T08:04:36.284Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-27T08:04:36.614Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-27T08:04:36.615Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8_Gantt_Chart - FredaXYu (has token)
+2022-03-27T08:04:37.888Z - info: [ui] [Timing] Action 'create commit' for 'FredaXYu/ASP_Group8' took 0.821s
+2022-03-27T08:04:38.183Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-27T08:04:40.271Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.539s)
+2022-03-27T08:04:40.272Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/FredaXYu/ASP_Group8_Gantt_Chart.git/' not found
+
+(The error was parsed as 8: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2022-03-27T08:04:41.559Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 7.4s of which 0.0s paused, total 7.4s
+2022-03-27T08:04:42.728Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 4.392s)
+2022-03-27T08:04:45.673Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.855s)
+2022-03-27T08:40:07.451Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.157s)
+2022-03-27T09:04:13.828Z - warn: [ui] getFetchPollInterval: failed for FredaXYu/ASP_Group8
+TypeError: Failed to fetch
+    at Qt (C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.12\webpack:\[name]\app\src\lib\http.ts:152:10)
+    at Un.request (C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.12\webpack:\[name]\app\src\lib\api.ts:1322:28)
+    at Un.getFetchPollInterval (C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.12\webpack:\[name]\app\src\lib\api.ts:1360:35)
+    at Vo.getFetchInterval (C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.12\webpack:\[name]\app\src\lib\stores\helpers\background-fetcher.ts:136:38)
+    at Vo.performAndScheduleFetch (C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.12\webpack:\[name]\app\src\lib\stores\helpers\background-fetcher.ts:117:33)
+2022-03-27T09:28:35.757Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-27T09:28:36.086Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-27T09:28:36.087Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8_Gantt_Chart - FredaXYu (has token)
+2022-03-27T09:50:36.782Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-03-27T09:50:36.786Z - info: [ui] [AppStore] found account: FredaXYu (Freda Xiaoyun Yu)
+2022-03-27T09:50:36.934Z - info: [ui] [BranchPruner] Last prune took place in 19 hours - skipping
+2022-03-27T09:50:37.292Z - info: [ui] launching: 2.9.12 (Windows 10.0.19042)
+2022-03-27T09:50:37.306Z - info: [ui] execPath: 'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.12\GitHubDesktop.exe'
+2022-03-27T09:50:38.356Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.193s)
+2022-03-27T09:50:39.323Z - info: [ui] Subscribed 'FredaXYu' to Alive channel
+2022-03-27T09:51:10.265Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.620s)
+2022-03-27T09:51:13.899Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 2.918s)
+2022-03-27T09:51:15.224Z - info: [ui] Executing createCommit: git commit -F - (took 1.253s)
+2022-03-27T09:51:15.643Z - info: [ui] [Timing] Action 'create commit' for 'FredaXYu/ASP_Group8' took 4.966s
+2022-03-27T09:51:17.181Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-27T09:51:33.135Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 15.863s)
+2022-03-27T09:51:35.905Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.583s)
+2022-03-27T10:08:44.620Z - info: [main] Received possible protocol arguments: 2
+2022-03-27T10:08:44.624Z - error: [main] Malformed launch arguments received: C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.12\GitHubDesktop.exe,--allow-file-access-from-files
+2022-03-27T10:08:46.674Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-27T10:08:46.991Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-27T10:08:46.992Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8_Gantt_Chart - FredaXYu (has token)
+2022-03-27T10:08:50.410Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.285s)
+2022-03-27T10:08:50.412Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/FredaXYu/ASP_Group8_Gantt_Chart.git/' not found
+
+(The error was parsed as 8: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2022-03-27T10:08:52.069Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 7.4s of which 0.0s paused, total 7.4s
+2022-03-27T10:10:58.292Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.828s)
+2022-03-27T10:11:04.075Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune upstream (took 5.681s)
+2022-03-27T10:24:56.685Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-27T10:24:57.001Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-27T10:24:57.002Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8_Gantt_Chart - FredaXYu (has token)
+2022-03-27T10:24:59.742Z - info: [ui] [BranchPruner] Last prune took place in 14 minutes - skipping
+2022-03-27T10:25:00.393Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.238s)
+2022-03-27T10:25:00.396Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/FredaXYu/ASP_Group8_Gantt_Chart.git/' not found
+
+(The error was parsed as 8: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2022-03-27T10:25:01.575Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 7.0s of which 0.0s paused, total 7.0s

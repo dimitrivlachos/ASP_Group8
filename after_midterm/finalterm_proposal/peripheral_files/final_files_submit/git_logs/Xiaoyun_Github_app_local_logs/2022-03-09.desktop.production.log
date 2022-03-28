@@ -1,0 +1,68 @@
+2022-03-09T03:10:21.398Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-03-09T03:10:21.398Z - info: [ui] [AppStore] found account: FredaXYu (Freda Xiaoyun Yu)
+2022-03-09T03:10:21.752Z - info: [ui] [BranchPruner] Last prune took place in 10 hours - skipping
+2022-03-09T03:10:22.173Z - info: [ui] launching: 2.9.11 (Windows 10.0.19042)
+2022-03-09T03:10:22.174Z - info: [ui] execPath: 'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.11\GitHubDesktop.exe'
+2022-03-09T03:10:23.424Z - info: [ui] Subscribed 'FredaXYu' to Alive channel
+2022-03-09T03:10:23.588Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.476s)
+2022-03-09T03:10:25.866Z - info: [ui] [Timing] Action 'create commit' for 'fredaxyu/ASP_Group8' took 1.089s
+2022-03-09T03:10:26.313Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-09T03:10:34.444Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 7.831s)
+2022-03-09T03:10:37.100Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.483s)
+2022-03-09T03:11:46.292Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-03-09T03:11:46.293Z - info: [ui] [AppStore] found account: FredaXYu (Freda Xiaoyun Yu)
+2022-03-09T03:11:46.294Z - info: [ui] [BranchPruner] Last prune took place in 10 hours - skipping
+2022-03-09T03:11:47.102Z - info: [ui] launching: 2.9.11 (Windows 10.0.19042)
+2022-03-09T03:11:47.103Z - info: [ui] execPath: 'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.11\GitHubDesktop.exe'
+2022-03-09T03:11:48.671Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.624s)
+2022-03-09T03:11:48.756Z - info: [ui] Subscribed 'FredaXYu' to Alive channel
+2022-03-09T03:12:04.795Z - info: [ui] [Timing] Action 'create commit' for 'fredaxyu/ASP_Group8' took 1.177s
+2022-03-09T03:12:05.098Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-09T03:12:11.746Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 6.489s)
+2022-03-09T03:12:15.139Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.206s)
+2022-03-09T09:51:00.732Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-03-09T09:51:00.732Z - info: [ui] [AppStore] found account: FredaXYu (Freda Xiaoyun Yu)
+2022-03-09T09:51:01.087Z - info: [ui] [BranchPruner] Last prune took place in 4 hours - skipping
+2022-03-09T09:51:01.299Z - info: [ui] launching: 2.9.11 (Windows 10.0.19042)
+2022-03-09T09:51:01.300Z - info: [ui] execPath: 'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.11\GitHubDesktop.exe'
+2022-03-09T09:51:02.498Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.313s)
+2022-03-09T09:51:02.845Z - info: [ui] Subscribed 'FredaXYu' to Alive channel
+2022-03-09T09:51:03.084Z - info: [ui] Stats reported.
+2022-03-09T09:51:07.742Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-09T09:51:08.152Z - warn: [ui] fetchRepository: 'fredaxyu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-09T09:51:08.154Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8_Gantt_Chart - FredaXYu (has token)
+2022-03-09T09:51:11.580Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.342s)
+2022-03-09T09:51:11.582Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/FredaXYu/ASP_Group8_Gantt_Chart.git/' not found
+
+(The error was parsed as 8: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2022-03-09T09:51:12.715Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 6.7s of which 0.0s paused, total 6.7s
+2022-03-09T09:51:21.130Z - info: [ui] [Timing] Action 'create commit' for 'fredaxyu/asp8_TowerDefense' took 0.999s
+2022-03-09T09:51:21.882Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: asp8_TowerDefense - FredaXYu (has token)
+2022-03-09T09:51:26.224Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 4.243s)
+2022-03-09T09:51:29.072Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 2.752s)
+2022-03-09T11:42:50.525Z - info: [ui] [AppStore] loading 5 repositories from store
+2022-03-09T11:42:50.525Z - info: [ui] [AppStore] found account: FredaXYu (Freda Xiaoyun Yu)
+2022-03-09T11:42:50.527Z - info: [ui] [BranchPruner] Last prune took place in a day - skipping
+2022-03-09T11:42:51.383Z - info: [ui] launching: 2.9.11 (Windows 10.0.19042)
+2022-03-09T11:42:51.384Z - info: [ui] execPath: 'C:\Users\Administrator\AppData\Local\GitHubDesktop\app-2.9.11\GitHubDesktop.exe'
+2022-03-09T11:42:52.334Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.012s)
+2022-03-09T11:42:53.440Z - info: [ui] Subscribed 'FredaXYu' to Alive channel
+2022-03-09T11:42:53.688Z - info: [ui] [BranchPruner] Last prune took place in 2 hours - skipping
+2022-03-09T11:42:59.906Z - warn: [ui] fetchRepository: 'FredaXYu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-09T11:43:00.237Z - warn: [ui] fetchRepository: 'fredaxyu/ASP_Group8_Gantt_Chart' returned a 404
+2022-03-09T11:43:00.239Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8_Gantt_Chart - FredaXYu (has token)
+2022-03-09T11:43:03.836Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.464s)
+2022-03-09T11:43:03.840Z - error: [ui] `git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/FredaXYu/ASP_Group8_Gantt_Chart.git/' not found
+
+(The error was parsed as 8: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2022-03-09T11:43:04.862Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 4 repositories took 6.3s of which 0.0s paused, total 6.3s
+2022-03-09T11:43:25.298Z - info: [ui] [Timing] Action 'create commit' for 'fredaxyu/ASP_Group8' took 1.067s
+2022-03-09T11:43:26.430Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: ASP_Group8 - FredaXYu (has token)
+2022-03-09T11:43:34.659Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin main:main --progress (took 8.140s)
+2022-03-09T11:43:38.558Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.728s)
