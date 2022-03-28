@@ -1,8 +1,35 @@
 
+Final project submission webpage: 
+
 https://www.coursera.org/learn/uol-cm2020-agile-software-projects/irt/YfmfR/individual-submission-of-the-project-documentation-002/step-1/submit/
 
+----------------------------------------------------------------
+How to fill the blanks: 
+
+1. Final project report. 
+
+ASP_Group8_Tower_Defense_Game_Final_Proposal
+
+Alternative downloading route for this final proposal: https://github.com/FredaXYu/ASP_Group8/blob/main/after_midterm/finalterm_proposal/final_report_Mar28_XYu%20-%20working.pdf 
+Game link: https://aspgrp8.z1.web.core.windows.net/ 
+Code repository: https://github.com/matthewsja/asp8_TowerDefense
+Files repository: https://github.com/FredaXYu/ASP_Group8
 
 
-game link: https://aspgrp8.z1.web.core.windows.net/ 
-code repository: https://github.com/matthewsja/asp8_TowerDefense
-files repository: https://github.com/FredaXYu/ASP_Group8
+2. Version control log and additional files (e.g. source code, images, dependencies.)
+
+Additional_Files
+
+Containing git logs, code documentation, images, and other supportive files. 
+Alternative downloading route: https://github.com/FredaXYu/ASP_Group8/tree/main/after_midterm/finalterm_proposal/peripheral_files/final_files_submit 
+
+
+3. Please upload your code here. Try to keep size to a minimum wherever possible. Your report will be your main (marked) deliverable and your code will be used to check the work you have done, so you only need to include elements that are relevant to the report.
+
+asp8_TowerDefense-main_final.zip
+
+Code repository: https://github.com/matthewsja/asp8_TowerDefense
+Containing code documentation. 
+
+
+
